@@ -1,10 +1,10 @@
 Package: FinancialTool
 Title: Analyze the profits and losses of your portfolio
-Version: 0.0.1.0
+Version: 0.0.1.1
 Authors@R: 
     person("Orlando", "Willig", , "orlandowillig@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Function that compares two data frames and analysis whether a loss or profit has been realized. This package is rather a test in writing packages in is not recommended to be used professionally.
+Description: Function that compares two data frames and analysis whether a loss or profit has been realized. This package is rather a test in writing packages in is not recommended to be used professionally. Test data frame included as df_company.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -49,6 +49,29 @@ profits(portfolio, stock_data)
 #> [1] 750
 ```
 
+## Data
+
+**FinancialTool** has a test data frame included, which is called
+“df_company”. The data frame can be saved with the following command:
+
+``` r
+df_company <- FinancialTool::df_company
+```
+
+The data frame has 20 rows and 5 variables.
+
+- Name: *Name of the Company*.
+
+- Last_Price: *Last price of the stock on the time of the web scraping*.
+
+- Last_Volume: *Volume of the trade responsible for the last price*.
+
+- Last_Price_Yesterday: *Closing Price of the last day*.
+
+- Volume_Total_Today: *Total volume of stock traded so far on this day*.
+
+More information can be found in the data.R file.
+
 ## Contributions
 
 I welcome contributions, including bug reports, suggestions, and
